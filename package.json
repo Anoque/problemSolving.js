@@ -1,0 +1,40 @@
+{
+  "name": "problem_solving",
+  "version": "1.0.0",
+  "description": "Решение задач",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "build:run": "npm run build:dev",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anoque/problemSolving.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anoque/problemSolving.js/issues"
+  },
+  "homepage": "https://github.com/Anoque/problemSolving.js#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/webpack": "^5.28.1",
+    "@webpack-cli/generators": "^3.0.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "declaration-bundler-webpack-plugin": "^1.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.8.7",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.78.0",
+    "webpack-dev-server": "^4.13.2",
+    "wepack-cli": "^0.0.1-security"
+  }
+}
